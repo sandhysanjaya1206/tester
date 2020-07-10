@@ -28,7 +28,7 @@ app.get('/link', (req, res) => {
     // - if you use dl, then you must send the entire deeplink: https://your.page.link/<trashid>
     // - if you use id, then you must send only the shortlink id: <trashid>
     const deeplink = req.query.dl || ('https://app.meeberian.com/' + req.query.id);
-    const imageUrl = req.query.image;
+    const imageUrl = 'https://www.google.com.ar/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png';
     const title = req.query.title;
     const desc = req.query.desc;
     // here you can use more query string variables to add more info to metadata attributes, 
