@@ -53,7 +53,7 @@ const buildShareContent = function(data) {
         '<meta property="al:android:package" content="com.meeber.meeberian" />' +
         '<meta property="al:android:app_name" content="Meeberian" />' +
         '<meta property="al:android:url" content="meeber" />' +
-        '<meta property="al:ios:url" content="' + data.deeplink + '" />' +
+        '<meta property="al:ios:url" content="meeber" />' +
         '<meta property="al:ios:app_store_id" content="1459505870" />' +
         '<meta property="al:ios:app_name" content="Meeberian" />' +
         '<meta property="al:web:should_fallback" content="true" />' +
