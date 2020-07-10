@@ -57,7 +57,7 @@ const buildShareContent = function(data) {
         '<meta property="al:ios:app_store_id" content="1459505870" />' +
         '<meta property="al:ios:app_name" content="Meeberian" />' +
         '<meta property="al:web:should_fallback" content="true" />' +
-        '<meta property="al:web:url" content="some_url_to_view_when_fallback_is_needed" />' + // dont know if this is required
+        '<meta property="al:web:url" content="https://www.meeberian.com" />' + // dont know if this is required
 
         '<meta property="og:title" content="' + data.title + '" />' +
         '<meta property="og:description" content="' + data.description + '" />' +
